@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="box"
+    />
+    <button
+      data-testid="remove"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`should match snapshot with pros 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="box"
+      id="100"
+      style="width: 10px; height: 10px; background-color: tomato;"
+    />
+    <button
+      data-testid="remove"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;

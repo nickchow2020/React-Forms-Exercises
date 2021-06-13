@@ -1,0 +1,11 @@
+.boxesWrapper{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.boxesContent{
+    display: flex;
+    flex-wrap: wrap;
+}
